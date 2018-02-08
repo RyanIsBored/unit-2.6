@@ -16,11 +16,13 @@ blueCircle = CircleAsset(50,blackOutline,blue) #radius, outline, fill
 greenEllipse = EllipseAsset(100,50,blackOutline,green) #width, height, outliine, fill
 blackLine = LineAsset(50,160,blackOutline) #x_enpoint, y_enpoint, lineStyle
 redTriangle = PolygonAsset([(0,0), (120,180), (60,300)],blackOutline,red) #enpoint, outline, fill
+text = TextAsset('h',fill=blue, style='bold 40pt Times') #test, other options
 
 Sprite(redRectangle)
 Sprite(blueCircle,(50,50))
 Sprite(greenEllipse,(200,200))
 Sprite(blackLine)
 Sprite(redTriangle)
+Sprite(text,(300,200))
 
 App().run()
