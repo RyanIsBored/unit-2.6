@@ -21,6 +21,6 @@ Sprite(redRectangle)
 Sprite(blueCircle,(50,50))
 Sprite(greenEllipse,(200,400))
 Sprite(blackLine)
-Sprite(redTriangle,)
+Sprite(redTriangle)
 
 App().run()
