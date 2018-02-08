@@ -19,7 +19,7 @@ redTriangle = PolygonAsset([(0,0), (120,180), (60,300)],blackOutline,red) #enpoi
 
 Sprite(redRectangle)
 Sprite(blueCircle,(50,50))
-Sprite(greenEllipse,(200,400))
+Sprite(greenEllipse,(200,200))
 Sprite(blackLine)
 Sprite(redTriangle)
 
