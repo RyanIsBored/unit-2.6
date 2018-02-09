@@ -13,7 +13,8 @@ noOutline = LineStyle(0,black)
 
 
 yellowRectangle = RectangleAsset(300,300,noOutline,yellow)
+redTriangle = PolygonAsset([(450,100), (120,180), (500,300)],noOutline,red)
 
 Sprite(yellowRectangle,(200,200))
-
+Sprite(redTriangle,(200,100))
 App().run()
