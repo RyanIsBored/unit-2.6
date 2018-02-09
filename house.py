@@ -13,7 +13,7 @@ noOutline = LineStyle(0,black)
 
 
 yellowRectangle = RectangleAsset(300,300,noOutline,yellow)
-redTriangle = PolygonAsset([(200,100), (450,50), (600,100)],noOutline,red)
+redTriangle = PolygonAsset([(200,200), (450,100), (500,200)],noOutline,red)
 
 Sprite(yellowRectangle,(200,200))
 Sprite(redTriangle,(200,100))
