@@ -14,10 +14,13 @@ noOutline = LineStyle(0,black)
 
 yellowRectangle = RectangleAsset(300,300,noOutline,yellow)
 redTriangle = PolygonAsset([(200,200), (350,100), (500,200)],noOutline,red)
+blackRectangle = RectangleAsset(100,100,noOutline,black)
 text = TextAsset('house',fill=blue, style='bold 40pt wingdings')
+
 
 Sprite(yellowRectangle,(200,200))
 Sprite(redTriangle,(200,100))
-Sprite(text,(300,400))
+Sprite(blackRectangle,(300,400))
+Sprite(text,(250,300))
 
 App().run()
